@@ -6,6 +6,56 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* Start of Header Section */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 4.8rem;
+  background-color: #fdf2e9;
+  font-family: "Rubik", sans-serif;
+  height: 6.2rem;
+}
+.logo {
+  height: 2.4rem;
+}
+.logo img {
+  height: 100%;
+}
+.main_nav_lst {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.main_nav_link:link,
+.main_nav_link:visited {
+  text-decoration: none;
+  color: #1a1a1a;
+  padding: 0 2.4rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+.main_nav_link:hover,
+.main_nav_link:active {
+  color: #e67e22;
+}
+.nav_cta:link,
+.nav_cta:visited {
+  background-color: #e67e22;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 1rem;
+  color: white;
+  transition: all 0.3s;
+}
+.nav_cta:hover,
+.nav_cta:active {
+  background-color: #cf711f;
+  color: white;
+}
+/* End of Header Section */
+/* Start of First Section */
 .hero {
   background-color: #fdf2e9;
   font-family: "Rubik", sans-serif;
@@ -33,6 +83,8 @@
   line-height: 1;
   font-weight: 700;
   color: #333333;
+  word-spacing: 0.75rem;
+  letter-spacing: 0.5px;
 }
 
 .hero_firstChild p {
@@ -163,3 +215,4 @@
   }
 }
 /* End of responsive styling for the first section */
+/* End of first section */
